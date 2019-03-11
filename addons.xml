@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.host505" name="host505 repo" version="2.1" provider-name="host505">
+<addon id="repository.host505" name="host505 repo" version="2.2" provider-name="host505">
     <extension point="xbmc.addon.repository" name="host505 repo">
     <dir>
         <info compressed="false">https://github.com/host505/repository.host505/raw/master/addons.xml</info>
@@ -13,6 +13,11 @@
         <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
     </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+    </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Testing and Learning stuff</summary>
@@ -21,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="1.5.2">
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="1.5.3">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0" />
 		<import addon="script.theoath.artwork" />
@@ -31,7 +36,7 @@
 		<import addon="script.module.metahandler" />
 		<import addon="script.module.beautifulsoup4" />
 		<import addon="script.module.oathscrapers" />
-		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.openscrapers" />
 		<import addon="script.module.orion" optional="true" />
 	</requires>
 	<extension library="theoath.py" point="xbmc.python.pluginsource">
@@ -57,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="script.theoath.artwork" version="1.0.6" name="TheOath Artwork" provider-name="host505">
+<addon id="script.theoath.artwork" version="1.0.7" name="TheOath Artwork" provider-name="host505">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
