@@ -204,7 +204,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="script.keymapedit" name="Keymap Edit" provider-name="takoi, host505" version="0.0.4">
+<addon id="script.keymapedit" name="Keymap Edit" provider-name="takoi, host505" version="0.0.5">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>
