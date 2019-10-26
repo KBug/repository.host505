@@ -204,7 +204,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="script.keymapedit" name="Keymap Edit" provider-name="takoi, host505" version="0.1.0">
+<addon id="script.keymapedit" name="Keymap Edit" provider-name="takoi, host505" version="0.1.1">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>
@@ -225,7 +225,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 - Fixed keymap reloading after save
 - Converted to current language formatting
 - Added Greek language
-- Added support for devices that correspond under the remote, gamepad, mouse or touch tags
         </news>
     </extension>
 </addon>
