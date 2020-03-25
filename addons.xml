@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="2.1.8">
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="2.1.9">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0" />
 		<import addon="script.theoath.artwork" />
@@ -87,7 +87,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.oathscrapers" name="OathScrapers Module" version="0.6.6" provider-name="TheOath">
+<addon id="script.module.oathscrapers" name="OathScrapers Module" version="0.6.7" provider-name="TheOath">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4" />
