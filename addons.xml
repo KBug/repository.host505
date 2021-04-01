@@ -21,14 +21,13 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.13">
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.14">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.theoath.artwork" />
         <import addon="script.theoath.metadata" />
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
-        <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.oathscrapers" />
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -60,31 +59,7 @@
     </extension>
 </addon>
 
-<addon id="script.theoath.artwork" version="1.0.8" name="TheOath Artwork" provider-name="host505">
-	<requires>
-		<!--<import addon="xbmc.python" version="2.19.0"/>-->
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the TheOath Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.theoath.metadata" version="1.0.4" name="TheOath Metadata" provider-name="host505">
-	<requires>
-		<!--<import addon="xbmc.python" version="2.19.0"/>-->
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the TheOath Addon</summary>
-		<description>Metadata for TheOath are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.oathscrapers" name="OathScrapers Module" version="0.9.983" provider-name="TheOath">
+<addon id="script.module.oathscrapers" name="OathScrapers Module" version="0.9.984" provider-name="TheOath">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />
@@ -110,6 +85,30 @@
     </assets>
     <news></news>
     </extension>
+</addon>
+
+<addon id="script.theoath.artwork" version="1.0.8" name="TheOath Artwork" provider-name="host505">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the TheOath Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.theoath.metadata" version="1.0.4" name="TheOath Metadata" provider-name="host505">
+	<requires>
+		<!--<import addon="xbmc.python" version="2.19.0"/>-->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the TheOath Addon</summary>
+		<description>Metadata for TheOath are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="script.module.orion" version="4.5.1" name="Orion" provider-name="Orion">
