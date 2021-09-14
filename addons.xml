@@ -21,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.01.05">
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.01.06">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.theoath.metadata" />-->
