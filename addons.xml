@@ -21,7 +21,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.02.05">
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.03.00">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <!--<import addon="script.theoath.metadata" />-->
@@ -87,7 +87,7 @@
     </extension>
 </addon>
 
-<addon id="script.theoath.artwork" version="1.0.9" name="TheOath Artwork" provider-name="host505">
+<addon id="script.theoath.artwork" version="1.1.0" name="TheOath Artwork" provider-name="host505">
 	<requires>
 		<!--<import addon="xbmc.python" version="2.19.0"/>-->
 	</requires>
